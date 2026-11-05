@@ -97,11 +97,11 @@ class Triangle(Shape):
 class Rectangle(Shape):
     def __init__(self, sides, length, width):        
         super().__init__(sides)
-        self.lenght = lenght
+        self.length = length
         self.width = width
 
     def get_area(self):
-        return self.lenght * self.width
+        return self.length * self.width
 
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
