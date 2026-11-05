@@ -82,10 +82,10 @@ def create_list(length_list):
     the second one created in Heap by reusing the first list.
     """
 
-    if lenght_list < 0:
+    if length_list < 0:
         raise ValueError("The number must be positive")
-    ram_list []
-    for _ in range(lenght_list):
+    ram_list = []
+    for _ in range(length_list):
         ram_list.append(random.randint(0, 100))
     heap_list = copy.deepcopy(ram_list)
     return ram_list, heap_list
