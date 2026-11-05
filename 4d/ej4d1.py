@@ -38,7 +38,7 @@ def sum():
     first = int(input("Insert the first number: "))
     second = int(input("Insert the second number: "))
     result = first + second
-    print("Result:", result)
+    print("Result: ", result)
     return result
     
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
